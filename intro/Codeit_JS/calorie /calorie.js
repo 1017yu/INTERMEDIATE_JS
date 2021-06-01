@@ -1,4 +1,3 @@
-// 코드를 작성해 주세요.
 let espresso = 10;
 let milk = 170;
 let chocolateSyrup = 50;
