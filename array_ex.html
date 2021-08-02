@@ -19,6 +19,20 @@
         document.write(`<li> ${workers[i]} </li>`);
         i++;
       }
+      document.write("<br>")
+
+      // 덧붙여 객체 쓰기 연습
+      var coworkers = {  // 객체 생성
+        "Front_End" : "Kled"
+      };
+
+      // 객체에 데이터 추가
+      coworkers.Back_End = "Zito";  // 데이터 추가
+      coworkers["Data scientist"] = "monkeykeonju";  // key값에 띄어쓰기가 있는 경우의 데이터 추가
+
+      document.write("Front-End: " + coworkers.Front_End + "<br>");
+      document.write("Back-End: " + coworkers.Back_End + "<br>");
+      document.write("Data scientist: " + coworkers["Data scientist"])
     </script>
   </ul>
 </body>
