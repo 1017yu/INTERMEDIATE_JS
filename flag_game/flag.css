@@ -49,9 +49,9 @@ body::before {
 }
 
 .flag-blue.up {
-  transform: rotate(-25deg) translateY(-40%);
+  transform: rotate(-15deg) translateY(-40%);
 }
 
 .flag-white.up {
-  transform: rotate(25deg) scaleX(-1) translateY(-40%);
+  transform: rotate(15deg) scaleX(-1) translateY(-40%);
 }

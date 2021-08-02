@@ -9,14 +9,14 @@
 <body>
   <h1> 자바스크립트 없이 배열 연습 </h1>
   <script>
-    var workers = ['kled', 'Zito', 'Meokintosh'];
+    var workers = ['Kled', 'Zito', 'Meokintosh'];
   </script>
   <h2>Workers</h2>
   <ul>
     <script>
-      var i = 0;
-      while(i < 4){
-        document.write('<li></li>');
+      var i = 0;  // 반복문에 사용할 변수 i 생성
+      while(i < workers.length){  // array의 length만큼 while 반복
+        document.write(`<li> ${workers[i]} </li>`);
         i++;
       }
     </script>
